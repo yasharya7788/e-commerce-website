@@ -21,5 +21,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/e-commerce-website/'  // Add this line for GitHub Pages deployment
 });
